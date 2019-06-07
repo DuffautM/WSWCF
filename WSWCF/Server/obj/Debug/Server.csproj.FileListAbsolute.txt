@@ -1,0 +1,12 @@
+C:\Users\maxim\source\repos\WSWCF\WSWCF\Server\bin\Debug\Server.exe.config
+C:\Users\maxim\source\repos\WSWCF\WSWCF\Server\bin\Debug\Server.exe
+C:\Users\maxim\source\repos\WSWCF\WSWCF\Server\bin\Debug\Server.pdb
+C:\Users\maxim\source\repos\WSWCF\WSWCF\Server\bin\Debug\Contract.dll
+C:\Users\maxim\source\repos\WSWCF\WSWCF\Server\bin\Debug\Service.dll
+C:\Users\maxim\source\repos\WSWCF\WSWCF\Server\bin\Debug\Contract.pdb
+C:\Users\maxim\source\repos\WSWCF\WSWCF\Server\bin\Debug\Service.pdb
+C:\Users\maxim\source\repos\WSWCF\WSWCF\Server\obj\Debug\Server.csprojAssemblyReference.cache
+C:\Users\maxim\source\repos\WSWCF\WSWCF\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+C:\Users\maxim\source\repos\WSWCF\WSWCF\Server\obj\Debug\Server.csproj.CopyComplete
+C:\Users\maxim\source\repos\WSWCF\WSWCF\Server\obj\Debug\Server.exe
+C:\Users\maxim\source\repos\WSWCF\WSWCF\Server\obj\Debug\Server.pdb

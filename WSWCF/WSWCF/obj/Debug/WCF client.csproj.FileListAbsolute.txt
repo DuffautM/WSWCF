@@ -1,0 +1,10 @@
+C:\Users\maxim\source\repos\WSWCF\WSWCF\WSWCF\bin\Debug\WSWCF.exe.config
+C:\Users\maxim\source\repos\WSWCF\WSWCF\WSWCF\bin\Debug\WSWCF.exe
+C:\Users\maxim\source\repos\WSWCF\WSWCF\WSWCF\bin\Debug\WSWCF.pdb
+C:\Users\maxim\source\repos\WSWCF\WSWCF\WSWCF\bin\Debug\Contract.dll
+C:\Users\maxim\source\repos\WSWCF\WSWCF\WSWCF\bin\Debug\Contract.pdb
+C:\Users\maxim\source\repos\WSWCF\WSWCF\WSWCF\obj\Debug\WCF client.csprojAssemblyReference.cache
+C:\Users\maxim\source\repos\WSWCF\WSWCF\WSWCF\obj\Debug\WCF client.csproj.CoreCompileInputs.cache
+C:\Users\maxim\source\repos\WSWCF\WSWCF\WSWCF\obj\Debug\WCF client.csproj.CopyComplete
+C:\Users\maxim\source\repos\WSWCF\WSWCF\WSWCF\obj\Debug\WSWCF.exe
+C:\Users\maxim\source\repos\WSWCF\WSWCF\WSWCF\obj\Debug\WSWCF.pdb

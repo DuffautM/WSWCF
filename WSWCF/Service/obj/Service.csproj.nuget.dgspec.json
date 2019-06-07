@@ -4,6 +4,17 @@
     "C:\\Users\\maxim\\source\\repos\\WSWCF\\WSWCF\\Service\\Service.csproj": {}
   },
   "projects": {
+    "C:\\Users\\maxim\\source\\repos\\WSWCF\\WSWCF\\Contract\\Contract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\maxim\\source\\repos\\WSWCF\\WSWCF\\Contract\\Contract.csproj",
+        "projectName": "Contract",
+        "projectPath": "C:\\Users\\maxim\\source\\repos\\WSWCF\\WSWCF\\Contract\\Contract.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
     "C:\\Users\\maxim\\source\\repos\\WSWCF\\WSWCF\\Service\\Service.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -27,7 +38,11 @@
         },
         "frameworks": {
           "netstandard2.0": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\maxim\\source\\repos\\WSWCF\\WSWCF\\Contract\\Contract.csproj": {
+                "projectPath": "C:\\Users\\maxim\\source\\repos\\WSWCF\\WSWCF\\Contract\\Contract.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

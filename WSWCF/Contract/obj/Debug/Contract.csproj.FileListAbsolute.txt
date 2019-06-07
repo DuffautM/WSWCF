@@ -1,0 +1,5 @@
+C:\Users\maxim\source\repos\WSWCF\WSWCF\Contract\bin\Debug\Contract.dll
+C:\Users\maxim\source\repos\WSWCF\WSWCF\Contract\bin\Debug\Contract.pdb
+C:\Users\maxim\source\repos\WSWCF\WSWCF\Contract\obj\Debug\Contract.csproj.CoreCompileInputs.cache
+C:\Users\maxim\source\repos\WSWCF\WSWCF\Contract\obj\Debug\Contract.dll
+C:\Users\maxim\source\repos\WSWCF\WSWCF\Contract\obj\Debug\Contract.pdb

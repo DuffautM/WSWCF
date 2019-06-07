@@ -25,6 +25,15 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "Contract/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Contract.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contract.dll": {}
+        }
       }
     }
   },
@@ -171,10 +180,16 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "Contract/1.0.0": {
+      "type": "project",
+      "path": "../Contract/Contract.csproj",
+      "msbuildProject": "../Contract/Contract.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "Contract >= 1.0.0",
       "NETStandard.Library >= 2.0.3"
     ]
   },
@@ -205,7 +220,11 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\maxim\\source\\repos\\WSWCF\\WSWCF\\Contract\\Contract.csproj": {
+              "projectPath": "C:\\Users\\maxim\\source\\repos\\WSWCF\\WSWCF\\Contract\\Contract.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
