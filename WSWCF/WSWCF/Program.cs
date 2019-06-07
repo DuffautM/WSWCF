@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Contract;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.ServiceModel;
@@ -13,20 +14,14 @@ namespace WSWCF
         {
             
             var endpoint = new EndpointAddress("http://localhost:8010/Server/services");
-            var proxy = ChannelFactory<Contract.i_calcul>.CreateChannel(new BasicHttpBinding(), endpoint);
+            var proxy = ChannelFactory<Contract.i_dispatching>.CreateChannel(new BasicHttpBinding(), endpoint);
+            var msg = new MSG();
+            msg.op_name = "mul";
+            msg.data_table = new object[2] { (object)12, (object)45 };
+            msg.app_token = "itsgood";
+            var result = proxy.dispatching(msg);
 
-            Console.WriteLine("Calling add method");
-            var result = proxy.m_add(1, 2);
-            Console.WriteLine(result);
-
-            Console.WriteLine("Calling substract method");
-            result = proxy.m_sous(1, 2);
-            Console.WriteLine(result);
-
-            Console.WriteLine("Calling multiply method");
-            result = proxy.m_mul(1, 2);
-            Console.WriteLine(result);
-
+            Console.WriteLine(result.data_table[0]);
             Console.ReadKey();
         }
     }

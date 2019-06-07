@@ -13,8 +13,8 @@ namespace Server
         static void Main(string[] args)
         {
             Console.WriteLine("Server starting");
-            var service = new ServiceHost(typeof(Service.svc_Calcul));
-            service.AddServiceEndpoint(typeof(Contract.i_calcul), new BasicHttpBinding(), "http://localhost:8010/Server/services");
+            var service = new ServiceHost(typeof(Service.svc_Dispatch));
+            service.AddServiceEndpoint(typeof(Contract.i_dispatching), new BasicHttpBinding(), "http://localhost:8010/Server/services");
             service.Open();
             Console.WriteLine("Server operating");
             Console.ReadKey();
